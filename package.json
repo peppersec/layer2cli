@@ -1,0 +1,19 @@
+{
+  "name": "layer2cli",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.429.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.2"
+  },
+  "bin": {
+    "layer2cli": "./cli.js"
+  }
+}
